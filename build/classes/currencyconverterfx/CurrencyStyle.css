@@ -1,0 +1,37 @@
+
+/* 
+    Created on : 13-Oct-2023, 4:33:47 pm
+    Author     : rinku
+*/
+
+.root {
+    -fx-background-color: #b2c0d6;
+    -fx-font-family: ubuntu;
+    -fx-font-weight: 700;
+    -fx-font-size: 10pt;
+}
+
+.button {
+    -fx-background-color: linear-gradient(to bottom right, #5b6980, #4287f5);
+    -fx-padding: 10pt;
+    -fx-font-size: 11pt;
+}
+
+.button:hover{
+    -fx-background-color:#5b6980;
+    -fx-cursor:hand;
+}
+
+.label {
+    -fx-text-fill: white;
+}
+
+.combo {
+    -fx-background-color: white;
+}
+
+#Value {
+    -fx-font-size: 12pt;
+    -fx-text-fill:#08172e;
+}
+
