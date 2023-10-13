@@ -107,6 +107,7 @@ public class CurrencyConverterFX extends Application {
         Scene scene = new Scene(layout, 400, 400);
         scene.getStylesheets().add("currencyconverterfx/CurrencyStyle.css");
 
+        window.setResizable(false);
         window.setScene(scene);
         window.show();
     }
