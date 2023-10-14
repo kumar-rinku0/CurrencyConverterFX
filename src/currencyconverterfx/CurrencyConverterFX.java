@@ -15,6 +15,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 import java.text.DecimalFormat;
+import javafx.geometry.Pos;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 
@@ -88,7 +89,7 @@ public class CurrencyConverterFX extends Application {
 
         HBox box = new HBox();
         box.setMinWidth(200);
-        box.paddingProperty().setValue(new Insets(50, 50, 50, 50));
+        box.setAlignment(Pos.CENTER);
 
         label4 = new Label();
         GridPane.setConstraints(box, 1, 6);
